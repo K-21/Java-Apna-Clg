@@ -29,7 +29,7 @@ public class butterflyPattern {
         // 2nd half
         for(int i=n;i>=1;i--){
                         // stars=i
-                        for(int j=1;j<=1;j++){
+                        for(int j=1;j<=i;j++){
                             System.out.print("*");
                         }
                         // spaces=2*(n-i)
@@ -37,7 +37,7 @@ public class butterflyPattern {
                             System.out.print(" ");
                         }
                         //stars=i
-                        for(int j=1;j<=1;j++){
+                        for(int j=1;j<=i;j++){
                             System.out.print("*");
                     }
                     System.out.println();
